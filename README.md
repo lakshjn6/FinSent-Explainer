@@ -1,4 +1,9 @@
 FinSent Expainer
+<img width="1883" height="898" alt="image" src="https://github.com/user-attachments/assets/c1784c2d-7a61-4d35-98a6-d120580ffc83" />
+<img width="1821" height="843" alt="image" src="https://github.com/user-attachments/assets/b3d0c89e-f706-4739-b4d8-824b92f14fc8" />
+<img width="1684" height="840" alt="image" src="https://github.com/user-attachments/assets/c6ac5703-f1b7-4707-967a-9674ae4d169c" />
+
+
 
 FinSent Expainer is a financial sentiment explanation and analysis framework. It integrates advanced transformer-based architectures with recurrent and attention mechanisms to extract nuanced insights from financial texts.
 
