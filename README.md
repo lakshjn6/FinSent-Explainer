@@ -1,90 +1,65 @@
-FinSent Expainer
-<img width="1883" height="898" alt="image" src="https://github.com/user-attachments/assets/c1784c2d-7a61-4d35-98a6-d120580ffc83" />
-<img width="1821" height="843" alt="image" src="https://github.com/user-attachments/assets/b3d0c89e-f706-4739-b4d8-824b92f14fc8" />
-<img width="1684" height="840" alt="image" src="https://github.com/user-attachments/assets/c6ac5703-f1b7-4707-967a-9674ae4d169c" />
+# 🎯 FinSentExplainer
+
+<img width="1916" height="1079" alt="Screenshot 2025-10-24 153120" src="https://github.com/user-attachments/assets/4084b755-b56b-484d-ab77-4ff5f9dced2e" />
+<img width="1919" height="1007" alt="Screenshot 2025-10-24 153109" src="https://github.com/user-attachments/assets/388c5757-27ad-4ace-9782-9e3c9680adab" />
+<img width="1919" height="1015" alt="Screenshot 2025-10-24 153055" src="https://github.com/user-attachments/assets/7cafee5c-e5bb-4a9a-9c8a-e5ceb4137d57" />
+<img width="1919" height="1001" alt="Screenshot 2025-10-24 153047" src="https://github.com/user-attachments/assets/61eed2d2-6c90-4160-9bca-0f605c4a9c84" />
 
 
 
-FinSent Expainer is a financial sentiment explanation and analysis framework. It integrates advanced transformer-based architectures with recurrent and attention mechanisms to extract nuanced insights from financial texts.
+### 🧠 End-to-End Financial Sentiment & Complaint Analysis System
 
-🚀 Features
+FinSentExplainer is an **NLP-based project** designed to analyze and interpret financial customer reviews using **deep learning** and **transformer-based architectures**.  
+It integrates multiple models to perform complaint detection, sentiment analysis, emotion recognition, and domain classification — all within a unified pipeline.
 
-Roberta + BiGRU + Attention + CentralNet + Sigmoid for robust financial sentiment classification.
+---
 
-SpanBERT for cause extraction.
+## 🔍 Key Highlights
 
-Complaint Labeling for identifying and tagging user complaints.
+### ✅ Complaint Detection  
+Developed a **hybrid RoBERTa + BiGRU + Attention + CentralNet** model to classify reviews as *Complaint* or *Non-Complaint*, achieving **91% accuracy**.
 
-Versatility Layer for multi-domain adaptability.
+### 😊 Sentiment Analysis  
+Built a **BERT + ANN** model to detect *Positive*, *Negative*, and *Neutral* sentiments.
 
-Emotion Detector for fine-grained emotional state analysis.
+### 😠 Emotion Analysis  
+Implemented **BERT + SVC** to capture underlying emotions in customer feedback.
 
-🏗️ Architecture
-1. Base Encoder
+### 🏦 Domain Finder  
+Designed a **BERT + XGBoost** model to identify issue domains such as *Transaction*, *Loan*, *Credit Card*, etc.
 
-RoBERTa: Contextual embedding generator for financial text.
+---
 
-BiGRU: Captures sequential dependencies from both directions.
+## ⚙️ Common Preprocessing  
+Applied consistent NLP preprocessing steps across all models:  
+- Word splitting and tokenization  
+- Stopword removal  
+- Lemmatization  
+- Embedding generation using transformer models  
+- Sequence padding and truncation  
 
-Attention Mechanism: Highlights key tokens driving predictions.
+---
 
-2. CentralNet Fusion
+## 💻 Tech Stack
 
-Integrates embeddings from RoBERTa, BiGRU, and Attention.
+| Layer | Technologies |
+|--------|---------------|
+| **Frontend** | React, Tailwind CSS |
+| **Backend** | Flask (Python) |
+| **Machine Learning / NLP** | BERT, RoBERTa, BiGRU, CentralNet, XGBoost, SVC, ANN |
+| **Tools** | Jupyter Notebook, VS Code |
+| **Version Control** | GitHub |
 
-Provides a unified representation.
+---
 
-Sigmoid Layer: Used for multi-label financial sentiment classification.
+## 📊 Results
 
-3. Auxiliary Modules
+- Achieved **91% accuracy** for Complaint vs Non-Complaint classification  
+- Created modular architecture for multi-model integration  
+- Built RESTful APIs for model inference and frontend visualization  
 
-SpanBERT: Extracts spans responsible for causes in financial sentiment shifts.
+---
 
-Complaint Labeling Head: Flags complaint-type sentences.
+## 🧩 Architecture Overview
 
-Versatility Head: Adapts model to multiple financial subdomains.
 
-Emotion Detection Head: Identifies emotions such as anxiety, optimism, fear, etc.
-
-🔄 Workflow
-
-Input: Raw financial text (tweets, reports, complaints, etc.).
-
-Text Encoder: RoBERTa encodes → BiGRU → Attention applied.
-
-CentralNet Fusion: Combines signals for sentiment classification.
-
-Downstream Tasks:
-
-SpanBERT extracts causes.
-
-Complaint labeler flags issues.
-
-Versatility module adapts outputs.
-
-Emotion detector refines emotional states.
-
-Output:
-
-Sentiment Score(s)
-
-Cause Spans
-
-Complaint Labels
-
-Emotion Tags
-
-📊 Tasks
-Task	Model Component	Output Example
-Financial Sentiment	RoBERTa + BiGRU + Attention + CentralNet	Positive / Negative / Neutral
-Cause Extraction	SpanBERT	“due to high market volatility”
-Complaint Labeling	Custom classifier head	Complaint / Non-Complaint
-Versatility	Multi-domain module	Adapted for banking / insurance etc
-Emotion Detection	Auxiliary classifier	Anxiety, Optimism, Anger, Fear
-📦 Future Extensions
-
-Explainable AI visualization (highlighting causal spans).
-
-Domain-specific fine-tuning (banking, stock markets, insurance).
-
-Integration with financial dashboards.
