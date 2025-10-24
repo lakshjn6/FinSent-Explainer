@@ -61,5 +61,14 @@ Applied consistent NLP preprocessing steps across all models:
 ---
 
 ## 🧩 Architecture Overview
+Frontend (React + Tailwind)
+↓
+Flask Backend API
+↓
+Model Pipeline:
+├── Complaint Detector (RoBERTa + BiGRU + Attention + CentralNet)
+├── Sentiment Analyzer (BERT + ANN)
+├── Emotion Classifier (BERT + SVC)
+└── Domain Finder (BERT + XGBoost)
 
 
