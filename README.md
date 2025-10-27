@@ -1,8 +1,10 @@
 🧠 FinSentExplainer — Financial Sentiment & Complaint Analysis System
-<img width="1916" height="1079" alt="Screenshot 2025-10-24 153120" src="https://github.com/user-attachments/assets/2e58a45e-c604-45ea-996a-c6615c17e30a" />
-<img width="1919" height="1007" alt="Screenshot 2025-10-24 153109" src="https://github.com/user-attachments/assets/4a3e994d-4652-4f8a-b5a0-010347d7e153" />
-<img width="1566" height="785" alt="Screenshot 2025-10-24 153101" src="https://github.com/user-attachments/assets/b3bffe5e-8cfc-4da6-8146-33f1a87065bf" />
 <img width="1919" height="1001" alt="Screenshot 2025-10-24 153047" src="https://github.com/user-attachments/assets/f44077d3-b82d-4b95-b614-a9d5aa8f7581" />
+<img width="1916" height="1079" alt="Screenshot 2025-10-24 153120" src="https://github.com/user-attachments/assets/2e58a45e-c604-45ea-996a-c6615c17e30a" />
+<img width="1566" height="785" alt="Screenshot 2025-10-24 153101" src="https://github.com/user-attachments/assets/b3bffe5e-8cfc-4da6-8146-33f1a87065bf" />
+<img width="1916" height="1079" alt="Screenshot 2025-10-24 153120" src="https://github.com/user-attachments/assets/1beaf905-81af-48f9-963e-2323c791fe8e" />
+
+
 
 
 🎉 Project Completed: FinSentExplainer 🚀
